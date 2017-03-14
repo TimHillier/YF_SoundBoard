@@ -1,29 +1,21 @@
-#horse
-{
-  
-    
-}
-#bell
-{
-  
-}
-#boat
-{
-    
-    
-}
-#whip
-{
-    
-}
-#wolf
-{
-   
-}
-#list
-{
-    width:45%;
 
-    padding:1em;
-    margin:0 auto;
+
+
+
+.button{
+   
+    background-color: #4CAF50; /* Green */
+    color: white;
+    top: 50%;
+    text-align: center;
+    text-decoration: none;  
+    cursor: pointer;
+    font-size: 60px; 
+    display: table; 
+    margin: auto;
+    margin-bottom: 15px;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    
 }
