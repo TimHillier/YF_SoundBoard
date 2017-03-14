@@ -1,0 +1,83 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+   <style>
+    
+    
+    
+    
+    </style>
+    
+    <script>
+  function play(sound){
+      var path = "./soundEffects/"; 
+      var audio = new Audio(path+sound);       
+       audio.play();
+                 }
+   </script>
+    
+    
+<input type="button" id="boat-button" value="BOAT"  onclick="play('Boat-Horn.wav')">
+
+<input type="button" id="horse-button" value="HORSE"  onclick="play('Horse-Neigh.wav')">
+    
+<input type="button" id="whip-button" value="WHIP"  onclick="play('Whip-Crack.wav')">
+
+<input type="button" id="wolf-button" value="WOLF"  onclick="play('wolf.mp3')">
+
+<input type="button" id="bell-button" value="BELL" onclick = "play('SchoolBell.wav')"> 
+
+
+    
+        
+    
+        
+    
+    
+    <body>
+    <!--
+    <ul id ="list" style="list-style-type:none">
+    
+        <li>
+            <p><b>HORSE</b></p>
+            <audio controls>  
+                <source id="horse" src = "./SoundEffects/Horse-Neigh.wav" type ="audio/wav">
+            </audio>
+        </li>
+        
+        <li>
+            <p><b>BOAT</b></p>
+            <audio controls > 
+                <source id="boat" src = "./SoundEffects/Boat-Horn.wav" type = "audio/wav"> 
+            </audio>
+        </li>
+        
+        <li>
+            <p><b>BELL</b></p>
+            <audio controls> 
+                <source id="bell" src = "./SoundEffects/SchoolBell.wav" type = "audio/wav"> 
+            </audio>
+        </li>
+        
+        <li>
+            <p><b>WHIP</b></p>
+            <audio controls> 
+                <source id="whip" src = "./SoundEffects/Whip-Crack.wav" type = "audio/wav"> 
+            </audio>
+        </li>
+        
+        <li>
+            <p><b>WOLF</b></p>
+            <audio controls> 
+                <source id = "wolf" src = "./SoundEffects/wolf.mp3" type = "audio/mp3">   
+            </audio>
+        </li>
+        
+        
+        </ul>
+-->
+    </body>
+    
+</html>

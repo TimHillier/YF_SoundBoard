@@ -1,0 +1,1 @@
+var horse = new Audio("./Sound Effects/Horse-Neigh.wav"); 
